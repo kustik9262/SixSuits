@@ -72,6 +72,11 @@ return {
 					"{C:six_moons}Moon{} or {C:six_stars}Star{} card",
 					"and gain {X:mult,C:white} X#2# {} Mult"
 				},
+				["unlock"] = {
+					"Win a run after playing",
+					"at least {C:attention}#1# times{} hands"
+					"contains {C:attention}Spectrum{} in one run",
+				}
 			},
 		},
 		["Sleeve"] = {
@@ -85,11 +90,7 @@ return {
 					"{C:six_moons}Moon{} or {C:six_stars}Star{} card",
 					"and gain {X:mult,C:white} X#2# {} Mult"
 				},
-				["unlock"] = {
-					"Win a run after playing",
-					"a {C:attention}Spectrum{} at least",
-					"{C:attention}#1# times{} in one run"
-				}
+				
 			},
 			["sleeve_six_colourful_alt"] = {
 				["name"] = "Colurful Sleeve",
