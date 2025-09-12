@@ -220,10 +220,9 @@ return {
 			["c_six_fool_q"] = {
 				["name"] = "Дурак?",
 				["text"] = {
-					"Creates the last",
-					"{C:spectral}Spectral{} card",
-					"used during this run",
-					"{s:0.8,C:spectral}The Fool?{s:0.8} excluded",
+					"Создаёт последнюю сыгранную",
+					"{C:spectral}Спектральную карту{} card",
+					"Исключая {s:0.8,C:spectral}Дурак?{s:0.8}",
 				},
 			},
 		},
@@ -231,9 +230,9 @@ return {
 			["SixSuits"] = {
 				["name"] = "Шесть мастей",
 				["text"] = {
-					"This mod introduces the {E:1,C:dark_edition}Spectrum{} hand,",
-					"for use with two new suits: {C:six_stars,T:c_six_star_q}Stars{} and {C:six_moons,T:c_six_moon_q}Moons{}.",
-					"Art by {E:1,C:attention}Crimson Heart{} and {E:1,C:attention}PeachFroggg{}."
+					"Этот мод добавляет новую руку: {E:1,C:dark_edition}Спектрум{}",
+					"чтобы использовать, вам понадобятся новые масти: {C:six_stars,T:c_six_star_q}Звёзды{} и {C:six_moons,T:c_six_moon_q}Луны{}.",
+					"Арты от {E:1,C:attention}Crimson Heart{} и {E:1,C:attention}PeachFroggg{}."
 				}
 			}
 		}
