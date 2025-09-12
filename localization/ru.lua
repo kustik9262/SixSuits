@@ -24,7 +24,7 @@ return {
 				"5 карт с разной мастью",
 			},
 			["six_Straight Spectrum"] = {
-				"5 cards in a row (consecutive ranks) with",
+				"5 карт по порядку",
 				"каждая из них с разной мастью",
 			},
 			["six_Spectrum House"] = {
@@ -65,12 +65,12 @@ return {
 			['b_six_colourful'] = {
 				["name"] = "Цветастая колода",
 				["text"] = {
-					"{X:mult,C:white} X#1# {} Mult if played hand", 
-					"contains a {C:attention}Spectrum{}",
-					"{C:green,E:1}#3# in #4#{} chance to change",
-					"the suit of each played",
-					"{C:six_moons}Moon{} or {C:six_stars}Star{} card",
-					"and gain {X:mult,C:white} X#2# {} Mult"
+					"{X:mult,C:white} X#1# {} множ если сыгранная рука", 
+					"содержит {C:attention}Spectrum{}",
+					"шанс {C:green,E:1}#3# in #4#{} поменять",
+					"масть каждой сыгранной карты",
+					"на {C:six_moons}лунную{} или {C:six_stars}звёздную{}",
+					"и дать {X:mult,C:white} X#2# {} множ"
 				},
 				["unlock"] = {
 					"Win a run after playing",
