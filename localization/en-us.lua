@@ -74,7 +74,7 @@ return {
 				},
 				["unlock"] = {
 					"Win a run after playing",
-					"at least {C:attention}#1# times{} hands"
+					"at least {C:attention}#1# times{} hands",
 					"contains {C:attention}Spectrum{} in one run",
 				}
 			},
