@@ -73,9 +73,9 @@ return {
 					"и дать {X:mult,C:white} X#2# {} множ"
 				},
 				["unlock"] = {
-					"Win a run after playing",
-					"a {C:attention}Spectrum{} at least",
-					"{C:attention}#1# times{} in one run"
+					"Выиграйте сыграв как минимум",
+					"{C:attention}#1# times{} рук содержащих",
+					"{C:attention}Spectrum{} в одном забеге"
 				},
 			},
 		},
@@ -83,21 +83,21 @@ return {
 			["sleeve_six_colourful"] = {
 				["name"] = "Цветастый карман",
 				["text"] = {
-					"{X:mult,C:white} X#1# {} Mult if played hand", 
-					"contains a {C:attention}Spectrum{}",
-					"{C:green,E:1}#3# in #4#{} chance to change",
-					"the suit of each played",
-					"{C:six_moons}Moon{} or {C:six_stars}Star{} card",
-					"and gain {X:mult,C:white} X#2# {} Mult"
+					"{X:mult,C:white} X#1# {} множ если сыгранная рука", 
+					"содержит {C:attention}Spectrum{}",
+					"шанс {C:green,E:1}#3# in #4#{} поменять",
+					"масть каждой сыгранной карты",
+					"на {C:six_moons}лунную{} или {C:six_stars}звёздную{}",
+					"и дать {X:mult,C:white} X#2# {} множ"
 				},
 				
 			},
 			["sleeve_six_colourful_alt"] = {
 				["name"] = "Цветастый карман",
 				["text"] = {
-					"{C:attention}Retrigger{} all played cards",
-					"if played hand",
-					"contains a {C:attention}Spectrum"
+					"{C:attention}Перезапуск{} всех сыгранных карт",
+					"если рука содержит",
+					"{C:attention}Спектрум"
 				}
 			}
 		},
@@ -132,28 +132,28 @@ return {
 			["c_six_trappist"] = {
 				["name"] = "Траппист",
 				["text"] = {
-					"{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+					"{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Повышение уровня",
 					"{C:attention}#2#",
-					"{C:mult}+#3#{} Mult and",
-					"{C:chips}+#4#{} chips",
+					"{C:mult}+#3#{} множ и",
+					"{C:chips}+#4#{} шт фишек",
 				},
 			},
 			["c_six_proxima"] = {
 				["name"] = "Проксима",
 				["text"] = {
-					"{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+					"{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Повышение уровня",
 					"{C:attention}#2#",
-					"{C:mult}+#3#{} Mult and",
-					"{C:chips}+#4#{} chips",
+					"{C:mult}+#3#{} множ и",
+					"{C:chips}+#4#{} шт фишек",
 				},
 			},
 			["c_six_kepler"] = {
 				["name"] = "Киплер",
 				["text"] = {
-					"{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+					"{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Повышение уровня",
 					"{C:attention}#2#",
-					"{C:mult}+#3#{} Mult and",
-					"{C:chips}+#4#{} chips",
+					"{C:mult}+#3#{} множ и",
+					"{C:chips}+#4#{} шт фишек",
 				},
 			},
 		},
